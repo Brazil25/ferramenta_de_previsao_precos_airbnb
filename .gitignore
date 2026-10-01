@@ -1,0 +1,17 @@
+# Pastas de dados
+dataset/
+dataset_parquet/
+
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Modelo pesado exportado
+modelo.joblib
+base_airbnb_final_completa.parquet
+
+# Arquivos temporários do Python e Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
