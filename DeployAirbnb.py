@@ -1,4 +1,3 @@
-# %%
 import polars as pl
 import streamlit as st
 import joblib
@@ -18,7 +17,6 @@ for item in x_listas:
     for valor in x_listas[item]:
         dicionario[f"{item}_{valor}"] = 0 
 
-# %%
 for item in x_numericos:
     if item == "latitude" or item == "longitude":
         valor = st.number_input(f"{item}", step=0.00001, value=0.0, format="%.5f")
